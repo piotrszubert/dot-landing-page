@@ -14,12 +14,16 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <CursorCircle />
       <main className={`${styles.main} ${inter.className}`}>
         <h1>
           HELLO
         </h1>
+        <h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint adipisci blanditiis praesentium voluptatem dolorum ducimus veniam omnis ipsum minus consectetur maiores, consequatur corporis magni atque et architecto explicabo ad alias.
+        </h2>
+        aadasdasdasdasd
       </main>
+      <CursorCircle />
     </>
   )
 }
