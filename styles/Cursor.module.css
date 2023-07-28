@@ -1,4 +1,4 @@
-/* .cursor {
+.cursor {
     position: absolute;
     width: 40px;
     height: 40px;
@@ -10,9 +10,9 @@
     transform: translate(-50%, -50%);
     transition: width 100ms, height 100ms;
     z-index: 77999;
-  } */
+  }
 
-  .cursor {
+  /* .cursor {
     position: absolute;
     width: 40px;
     height: 40px;
@@ -23,7 +23,7 @@
     z-index: 77999;
     background: transparent;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.7), 0 0 20px rgba(255, 255, 255, 0.5), 0 0 30px rgba(255, 255, 255, 0.3);
-  }
+  } */
 
 
   /* .cursor {

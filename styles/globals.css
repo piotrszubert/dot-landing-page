@@ -1,4 +1,4 @@
-* {
+/* * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -13,9 +13,21 @@ body {
 body {
   color: rgb(0,0,0);
   background: url('/bg-image.jpg');
+  background-color: black;
+}
+*/
+
+
+body {
+  color: rgb(255,255,255);
+  background-color: black;
+}
+
+h1 {
+  font-size: 20rem;
 }
 
 a {
   color: inherit;
   text-decoration: none;
-}
+} 
