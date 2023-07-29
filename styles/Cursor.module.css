@@ -3,40 +3,19 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: white;
+    background-color: white;
     border: 2px solid white;
     pointer-events: none;
     mix-blend-mode: difference;
     transform: translate(-50%, -50%);
     transition: width 100ms, height 100ms;
     z-index: 77999;
+}
+
+/* disable cursor circle on mobile screens */
+
+@media (max-width: 1024px) {
+  .cursor {
+    all: unset;  /* thanks to W3C for creating that kicking ass shit */
   }
-
-  /* .cursor {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    pointer-events: none;
-    transform: translate(-50%, -50%);
-    transition: width 100ms, height 100ms;
-    z-index: 77999;
-    background: transparent;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7), 0 0 20px rgba(255, 255, 255, 0.5), 0 0 30px rgba(255, 255, 255, 0.3);
-  } */
-
-
-  /* .cursor {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    pointer-events: none;
-    transform: translate(-50%, -50%);
-    transition: width 100ms, height 100ms;
-    z-index: 77999;
-    background: transparent;
-    border: 2px solid #ffffff; 
-    animation: spin 2s linear infinite;
-    backdrop-filter: blur(2px);
-  } */
+}
