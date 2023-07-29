@@ -21,3 +21,8 @@ a {
   color: inherit;
   text-decoration: underline;
 }
+
+.section-title {
+  margin-bottom: 1rem;
+  text-align: center;
+}
