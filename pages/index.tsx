@@ -2,6 +2,7 @@ import Head from 'next/head'
 import { Montserrat } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import CursorCircle from '@/components/cursorCircle'
+import Hero from '@/components/hero'
 
 const montserrat = Montserrat({ subsets: ['latin'] })
 
@@ -15,6 +16,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main} ${montserrat.className}`}>
+        <Hero/>
         <h1>
           HELLO
         </h1>
