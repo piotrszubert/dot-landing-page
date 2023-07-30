@@ -20,7 +20,7 @@ export default function Hero() {
             </p>
             <div>
                 <button className={styles.button}>
-                    Get Starded - It's free
+                    Get Starded - It&apos;s free
                 </button>
             </div>
         </div>
