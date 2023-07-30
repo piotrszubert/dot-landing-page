@@ -6,8 +6,8 @@
 
 .feature {
     padding: 1rem;
-    border: 1px solid;
-    border-radius: 10px;
+    border: var(--border-width) solid;
+    border-radius: var(--border-radius);
 }
 
 .name {
@@ -16,7 +16,7 @@
 }
 
 .description {
-    color: #afafaf;
+    color: var(--accent-font-color-rgb);
 }
 
 @media (max-width: 1024px) {

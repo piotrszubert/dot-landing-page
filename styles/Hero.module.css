@@ -16,14 +16,14 @@
 }
 
 .description {
-    color: #afafaf;
+    color: var(--accent-font-color-rgb);
 }
 
 .button {
     all: unset;
     padding: .5rem 1rem;
-    border: 2px solid;
-    border-radius: 10px;
+    border: var(--border-width) solid;
+    border-radius: var(--border-radius);
     transition: transform .2s ease-in;
 }
 
