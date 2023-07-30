@@ -3,6 +3,7 @@ import { Montserrat } from 'next/font/google'
 import CursorCircle from '@/components/cursorCircle'
 import Hero from '@/components/hero'
 import KeyFeatures from '@/components/keyFeatures'
+import Cta from '@/components/cta'
 
 const montserrat = Montserrat({ subsets: ['latin'] })
 
@@ -18,6 +19,7 @@ export default function Home() {
       <main className={`${montserrat.className}`}>
         <Hero/>
         <KeyFeatures/>
+        <Cta/>
       </main>
       <CursorCircle />
     </>
