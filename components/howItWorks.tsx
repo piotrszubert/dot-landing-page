@@ -38,7 +38,7 @@ export default function HowItWorks() {
             >
                 Step into a world of seamless organization and efficiency with Dot. 
                 Our advanced personal assistant is designed to simplify your life 
-                and elevate your productivity to new heights. Here's how it works:
+                and elevate your productivity to new heights. Here's how it works.
             </p>
         </div>
         <div className={styles.stepsWrapper}>
