@@ -23,7 +23,7 @@ body {
 
 /* invert colors when selecting text */
 ::selection {
-  background-color: var(--font-color-rgb);
+  background-color: var(--primary-font-color-rgb);
   color: var(--primary-background-color-rgb);
 }
 
