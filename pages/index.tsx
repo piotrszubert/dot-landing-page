@@ -4,6 +4,7 @@ import CursorCircle from '@/components/cursorCircle'
 import Hero from '@/components/hero'
 import KeyFeatures from '@/components/keyFeatures'
 import Cta from '@/components/cta'
+import HowItWorks from '@/components/howItWorks'
 
 const montserrat = Montserrat({ subsets: ['latin'] })
 
@@ -19,6 +20,7 @@ export default function Home() {
       <main className={`${montserrat.className}`}>
         <Hero/>
         <KeyFeatures/>
+        <HowItWorks/>
         <Cta/>
       </main>
       <CursorCircle />
