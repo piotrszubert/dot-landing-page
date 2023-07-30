@@ -1,3 +1,12 @@
+:root {
+  --primary-font-color-rgb: rgb(255,255,255);
+  --accent-font-color-rgb: rgb(175, 175, 175);
+  --primary-background-color-rgb: rgb(0,0,0);
+  --body-max-width: 55rem;  
+  --border-width: 2px;
+  --border-radius: 10px;
+}
+
 * {  
   box-sizing: border-box;
   padding: 0;
@@ -5,16 +14,17 @@
 }
 
 body {
-  color: rgb(255,255,255);
-  background-color:  rgb(0,0,0);
+  color: var(--primary-font-color-rgb);
+  background-color: var(--primary-background-color-rgb);
   padding: 0 1rem;
-  max-width: 55rem;
+  max-width: var(--body-max-width);
   margin: 0 auto;
 }
 
+/* invert colors when selecting text */
 ::selection {
-  background-color: rgb(255,255,255);
-  color: rgb(0,0,0);
+  background-color: var(--primary-font-color-rgb);
+  color: var(--primary-background-color-rgb);
 }
 
 a {
