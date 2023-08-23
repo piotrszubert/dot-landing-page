@@ -1,13 +1,10 @@
 import Head from 'next/head'
-import { Montserrat } from 'next/font/google'
 import CursorCircle from '@/components/cursorCircle'
 import Hero from '@/components/hero'
 import KeyFeatures from '@/components/keyFeatures'
 import Cta from '@/components/cta'
 import HowItWorks from '@/components/howItWorks'
-import Footer from '@/components/footer'
-
-const montserrat = Montserrat({ subsets: ['latin'] })
+import Layout from '@/components/layout'
 
 export default function Home() {
   return (
@@ -18,13 +15,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={`${montserrat.className}`}>
+      <Layout>
         <Hero/>
         <KeyFeatures/>
         <HowItWorks/>
         <Cta/>
-      </main>
-      <Footer/>
+      </Layout>
       <CursorCircle />
     </>
   )
