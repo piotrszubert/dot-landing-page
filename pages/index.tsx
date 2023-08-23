@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import CursorCircle from '@/components/cursorCircle'
 import Hero from '@/components/hero'
 import KeyFeatures from '@/components/keyFeatures'
 import Cta from '@/components/cta'
@@ -21,7 +20,6 @@ export default function Home() {
         <HowItWorks/>
         <Cta/>
       </Layout>
-      <CursorCircle />
     </>
   )
 }
