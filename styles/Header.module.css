@@ -2,6 +2,7 @@
     padding: 2rem 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
@@ -18,6 +19,7 @@
     border-radius: var(--border-radius);
     transition: box-shadow .3s linear;
     cursor: pointer;
+    font-weight: 600;
 }
 
 .button:hover {
