@@ -5,6 +5,7 @@ import Hero from '@/components/hero'
 import KeyFeatures from '@/components/keyFeatures'
 import Cta from '@/components/cta'
 import HowItWorks from '@/components/howItWorks'
+import Footer from '@/components/footer'
 
 const montserrat = Montserrat({ subsets: ['latin'] })
 
@@ -23,6 +24,7 @@ export default function Home() {
         <HowItWorks/>
         <Cta/>
       </main>
+      <Footer/>
       <CursorCircle />
     </>
   )
